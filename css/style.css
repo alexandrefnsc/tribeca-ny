@@ -1,0 +1,278 @@
+/* IMPORT CSS */
+@import 'bootstrap.css';
+@import 'demo.css';
+@import 'flat-ui.css';
+
+/* INICIO * CSS Reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,
+fieldset,p,blockquote,th,td{margin:0;padding:0;}
+address,th{font-style:normal;font-weight:normal;}
+table{border-collapse:collapse;border-spacing:0;}
+caption,th{text-align:left;}
+img,fieldset{border:none;}
+ol,ul{list-style:none; font-size:inherit;}
+a{text-decoration:none;}
+div{
+	position:relative;
+}
+a:focus {outline: none;}
+/* FIM * CSS Reset */
+
+body{
+background-color: #423429 !important;
+max-width: 1400px;
+margin: auto;
+}
+
+body a:hover{
+	text-decoration: underline;
+}
+
+/*------------------ CONTENT-HOME */
+.content-home{
+	min-height: 100%;
+	overflow: hidden;
+}
+#menu_header li{
+	display: inline-block;
+	padding: 0px 30px;
+	margin-top: 80px;
+	color: #fff;
+}
+
+#menu_header a {
+	color: #FFF;
+	font-size: 20px;
+	font-family: 'Lato', Helvetica, Arial, sans-serif;
+}
+
+.content-info{
+	height: 390px;
+	background: #333;
+}
+
+/*------------------ CONTENT-BANNER */
+
+#banner_home{
+	margin-top: 50px;
+	height: 553px;
+	overflow: hidden;
+	background: -webkit-radial-gradient(center, ellipse cover, #4c3f35 1%,#423429 50%); /* Chrome10+,Safari5.1+ */
+}
+
+.banner-text{
+	width: 575px;
+	margin-top: 20px;
+}
+
+.banner-text h2{
+	font-family: Georgia, serif;
+	color: #FFF;
+	font-style: italic;
+	font-size: 45px;
+}
+
+.banner-text h1{
+	font-family: Futura-bold, sans-serif;
+	text-transform:uppercase;
+	color: #FFF;
+	font-size: 80px;
+	margin: 0px;
+}
+
+.banner-text p{
+	font-family: Georgia, serif;
+	color: #FFF;
+	font-style: italic;
+	font-size: 20px;
+}
+
+/*------------------ CONTENT-INFO */
+
+.content-info-01{
+	background: #53422e;
+	min-height: 390px;
+}
+
+.content-info-01 div{
+	width: 350px;
+	margin: auto;
+	text-align: center;
+	padding-top: 30px;
+	color:  #fff;
+}
+
+.content-info-01 div:hover{
+	cursor: pointer;
+}
+
+.content-info-01 div > h3{
+	color: #FFF;
+	font-family: 'Lato', sans-serif;
+	font-size: 30px;
+	margin-top: 10px;
+}
+
+.content-info-01 div > p{
+	font-family: Georgia, serif;
+	color: #FFF;
+	font-style: italic;
+	font-size: 15px;
+}
+
+.content-info-02{
+	background: #5c4931;
+	height: 390px;
+}
+
+.content-info-02 div{
+	width: 350px;
+	margin: auto;
+	text-align: center;
+	padding-top: 30px;
+	color:  #fff;
+}
+
+.content-info-02 div:hover{
+	cursor: pointer;
+}
+
+.content-info-02 div > h3{
+	color: #FFF;
+	font-family: 'Lato', sans-serif;
+	font-size: 30px;
+	margin-top: 10px;
+}
+
+.content-info-02 div > p{
+	font-family: Georgia, serif;
+	color: #FFF;
+	font-style: italic;
+	font-size: 15px;
+}
+
+.img-info{
+	width: 171px;
+}
+
+/*------------------ CONTENT-CARDAPIO */
+.content-cardapio{
+	background: #F5AB35;
+	min-height: 100%;
+	overflow: hidden;
+	padding-bottom: 30px;
+}
+
+.content-cardapio h1{
+	font-family: 'Lobster', cursive;
+	font-size: 50pt;
+	text-align: center;
+	color: #fff;
+}
+
+#banner_cardapio{
+	height: 540px;
+	overflow: hidden;
+	background: #444;
+	margin-top: 15px;
+}
+
+.tag-sabor{
+	background: #F5AB35;
+	padding: 13px;
+	width: 417px;
+	position: absolute;
+	margin-top: 50px;
+	opacity: 0.8;
+}
+
+.tag-sabor p{
+	font-size: 40px;
+	color:  white;
+	font-family: Georgia, serif;
+	font-style: italic;
+	padding-left: 30px;
+}
+
+#content_sabores{
+	text-align: center;
+	height: 300px;
+	overflow: hidden;
+}
+
+#content_sabores p{
+	font-family: "Lobster", cursive;
+	text-shadow: none;
+	font-size: 36px;
+	color: white;
+}
+
+.info-sabores{
+	margin-top: 30px;
+	height: 250px;
+}
+
+.info-sabores:hover{
+	cursor: pointer;
+}
+
+.img-sabor{
+	width: 200px;
+	border: solid 12px #fff;
+	border-radius: 50%;
+}
+
+#btn_saiba_mais{
+	margin-top: 15px;
+	width: 228px;
+	margin: auto;
+}
+
+#btn_saiba_mais a{
+	font-size: 30px;
+	font-family: "Lobster", cursive;
+}
+
+/*------------------ CONTENT-SERVIÇOS */
+#content_servicos{
+	background: #f4c93b;
+	min-height: 100%;
+	overflow: hidden;
+	padding: 50px 0px 100px 0px;
+}
+
+#content_servicos h1{
+	font-family: 'Lobster', cursive;
+	font-size: 50pt;
+	text-align: center;
+	color: #fff;
+}
+
+.info-servicos{
+	text-shadow: none;
+	text-align: center;
+	color: #333333;
+	margin-top: 30px;
+}
+
+.info-servicos p{
+	font-family: Georgia, serif;
+	font-style: italic;
+	font-size: 18px;
+}
+
+/*------------------ CONTENT-CONTATOS */
+#content_contatos{
+	background: #333333;
+	min-height: 100%;
+	height: 400px;
+	overflow: hidden;
+	padding-bottom: 30px;
+}
+
+#content_contatos h1{
+	font-family: 'Lobster', cursive;
+	font-size: 50pt;
+	text-align: center;
+	color: #fff;
+}
